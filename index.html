@@ -14,31 +14,35 @@
 <body>
   <header>
     <div class="header">
-      <nav class="navbar navbar-expand-sm bg-dark text-white" style="--bs-bg-opacity: 0.9" data-bs-theme="dark">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <div class="container-fluid">
-            <div class="row align-items-center">
-              <a class="navbar-brand navbar-nav col border border-black border-5 " href="#">
-                <img src="./img/codoacodo.png" alt="codoacodo" width="160" height="100"
-                  class="d-inline  align-center float" />Conf Bs As
-              </a>
-                  <li class="nav-item">
-                  <a class="nav-link active border-black" aria-current="page" href="#">La conferencia</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#oradores">Los oradores</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#lugar">El lugar y la fecha</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#convierteteenorador">Conviertete en orador</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Comprar tickets</a>
-                </li>
-              </ul>
-      </div>
+      <nav class="navbar text-end navbar-expand-lg bg-dark text-white " style="--bs-bg-opacity: 0.9" data-bs-theme="dark">
+        <div class="container-fluid text-end ">
+          <a class="navbar-brand text-end " href="#">
+            <img src="./img/codoacodo.png" alt="codoacodo" width="160" height="100"
+              class="d-inline strong h5 align-center text-end float" />Conf Bs As
+          </a>
+          <button class="navbar-toggler text-end " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-end" id="navbarNav">
+            <ul class="navbar-nav text-end ">
+              <li class="nav-item strong text-end h5">
+                <a class="nav-link active text-end" aria-current="page" href="#">La conferencia</a>
+              </li>
+              <li class="nav-item strong h5">
+                <a class="nav-link " href="#oradores">Los oradores</a>
+              </li>
+              <li class="nav-item strong h5">
+                <a class="nav-link h3" href="#lugar">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item strong h5">
+                <a class="nav-link " href="#convierteteenorador">Conviertete en orador</a>
+              </li>
+              <li class="nav-item strong h5">
+                <a class="nav-link text-success" href="#">Comprar tickets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -71,14 +75,14 @@
               <button type="button" class="btn btn-success btn-lg"><a id="tickets">Comprar tickets</a></button>
             </div>
           </div>
-          <div class="carousel-item">
+          <div id="carouselExampleCaptions" class="carousel-item">
             <img src="./img/ba2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div  id="carouselExampleCaptions" class="carousel-item">
             <img src="./img/ba3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
