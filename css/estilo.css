@@ -2,3 +2,17 @@
     font: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.item {
+    width: 400px;
+    height: 300px;
+  }
+  .item.active {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+  }
+  .item .slide {
+    position: relative;
+    z-index: -1;
+    width: 400px;
+    height: 300px;
+  }
